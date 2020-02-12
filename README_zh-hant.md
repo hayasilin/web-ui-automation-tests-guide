@@ -1,8 +1,10 @@
 # Web UI自動化測試規範
 
-[Here is English version](https://github.com/hayasilin/ios-android-ui-automation-tests-guide/blob/master/README.md)
+[Here is English version](https://github.com/hayasilin/web-ui-automation-tests-guide)
 
 這是總結個人在開發可靠及穩定的Web UI自動化測試所得之規範及最佳實踐，歡迎同好的[反饋](https://github.com/hayasilin/web-ui-automation-tests-guide/issues) 和 [Pull requests](https://github.com/hayasilin/web-ui-automation-tests-guide/pulls)。
+
+如果你是Mobile app的開發者，想了解關於Mobile app的UI自動化測試，可以參考我另外一篇[iOS 及 Android UI自動化測試規範](https://github.com/hayasilin/ios-android-ui-automation-tests-guide/blob/master/README_zh-hant.md)
 
 ## 介紹
 
@@ -93,8 +95,6 @@
 Google建議70/20/10的比例：70%單元測試，20%整合測試，以及10%的UI測試。實際的比例會根據每個團隊而有所不同，但整體來說，比例應該如同三角形的形狀一樣。另外請避免反模式，比如團隊主要依賴UI測試，並很少使用整合測試，且幾乎沒有單元測試。
 
 如同正常的三角形在現實世界是最穩定的結構，測試三角形也是最穩定的測試策略。
-
-如果你想知道更多有關iOS的單元測試，可以參考我另外一篇[iOS單元測試規範](https://github.com/hayasilin/unit-tests-ios-guide/blob/master/README_zh-Hant.md)。
 
 ### 開發前的準備
 - 了解到維護成本，不同裝置依賴問題，測試環境的依賴問題，原生測試框架的限制等造成UI自動化測試的脆弱性。
