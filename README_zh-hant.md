@@ -14,6 +14,7 @@
 - Selenium
   - [Selenium.dev](https://selenium.dev/)
   - [Selenium WebDriver](https://selenium.dev/projects/)
+  - [Selenium with Python](https://selenium-python.readthedocs.io/index.html)
 
 - Cypress
   - [Cypress.io](https://www.cypress.io/)
@@ -175,7 +176,7 @@ driver.getTitle();
 {
     public Boolean apply(WebDriver d)
     {
-        return d.getTitle().toLowerCase().startsWith("text");
+        return driver.getTitle().toLowerCase().startsWith("text");
     }
 });
 
