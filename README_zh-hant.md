@@ -176,7 +176,7 @@ driver.getTitle();
 {
     public Boolean apply(WebDriver d)
     {
-        return driver.getTitle().toLowerCase().startsWith("text");
+        return d.getTitle().toLowerCase().startsWith("text");
     }
 });
 
