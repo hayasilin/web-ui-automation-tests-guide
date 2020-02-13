@@ -4,7 +4,7 @@
 
 This is a development guide of how to develop reliable and stable UI automation tests for web application that I conclude from my experience. I welcome your feedback in [issues](https://github.com/hayasilin/web-ui-automation-tests-guide/issues) and [pull requests](https://github.com/hayasilin/web-ui-automation-tests-guide/pulls).
 
-If you are a mobile app developer and want to know about mobile app UI automation tests, you can see my[iOS and Android UI Automation Tests Guide](https://github.com/hayasilin/ios-android-ui-automation-tests-guide)
+If you are a mobile app developer and want to know about mobile app UI automation tests, you can see my [iOS and Android UI Automation Tests Guide](https://github.com/hayasilin/ios-android-ui-automation-tests-guide)
 
 ## Introduction
 
