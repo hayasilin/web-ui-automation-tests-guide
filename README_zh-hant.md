@@ -10,7 +10,7 @@
 
 本規範適合在Web UI自動化測試領域已經有些許經驗的工程師，使用Selenium及WebDriver的測試框架，或使用Cypress測試框架進行開發，且將UI自動化測試整合至團隊的CI/CD流程中。
 
-關於Selenium及WebDriver測試框架，如果這裡沒提到，那就在以下的文件裡：
+關於測試框架，如果這裡沒提到，那就在以下的文件裡：
 - Selenium
   - [Selenium.dev](https://selenium.dev/)
   - [Selenium WebDriver](https://selenium.dev/projects/)
@@ -98,7 +98,7 @@ Google建議70/20/10的比例：70%單元測試，20%整合測試，以及10%的
 如同正常的三角形在現實世界是最穩定的結構，測試三角形也是最穩定的測試策略。
 
 ### 開發前的準備
-- 了解到維護成本，不同裝置依賴問題，測試環境的依賴問題，原生測試框架的限制等造成UI自動化測試的脆弱性。
+- 了解到維護成本，不同瀏覽器依賴問題，測試環境的依賴問題，原生測試框架的限制等造成UI自動化測試的脆弱性。
 - 因此，UI自動化測試應只是執行**煙霧測試(Smoke Testing)**，確認最常用的使用者情境即可，此外不需要做更多。
 - 如果發現有某隻測項容易產生Flaky結果但無法快速解決，請移除或不執行該測項，Flaky tests不該被留存，直到被修復。
 - 團隊沒有時間一直檢查Flaky tests，只有可靠且穩定的UI自動化測試可以幫助團隊：
@@ -157,13 +157,13 @@ WebElement element = driver.findElement(By.name("name"));
 element.sendKeys("text");
 ```
 
-**Submit the form**
+**傳送表單**
 
 ```java
 element.submit();
 ```
 
-**檢查此頁的Page title**
+**取得此頁的Page title**
 
 ```java
 driver.getTitle();
